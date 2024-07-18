@@ -2,15 +2,22 @@ const HomePage = () => {
   return (
     <div
       style={{
-        height: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
       }}
     >
-      Home Page
+      <h1
+        style={{
+          marginTop: '16%',
+          fontSize: 120,
+          fontWeight: 900,
+          textTransform: 'uppercase',
+          color: '#c0eb6a',
+        }}
+      >
+        Home Page
+      </h1>
     </div>
   );
 };

@@ -1,0 +1,30 @@
+.formStyled {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  background-color: #c0eb6a;
+  padding: 0 30px 30px 30px;
+  border-radius: 26px;
+  width: 28%;
+}
+
+.labelStyled {
+  width: 100%;
+}
+
+.labelName {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #485550;
+}
+
+.inputStyled {
+  width: 100%;
+  border: none;
+  border-radius: 13px;
+  height: 40px;
+}
+
+.buttonStyled {
+  margin-top: 20px;
+}

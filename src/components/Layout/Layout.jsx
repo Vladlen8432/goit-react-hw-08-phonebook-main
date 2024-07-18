@@ -1,15 +1,24 @@
 import { NavLink } from 'react-router-dom';
+import css from './Layout.module.css';
 
 const Layout = ({ children }) => {
   return (
     <div>
-      <header>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/login">Login</NavLink>
-        <NavLink to="/register">Register</NavLink>
-        <NavLink to="/contacts">Contacts</NavLink>
+      <header className={css.headerStyled}>
+        <NavLink className={css.linkStyled} to="/">
+          Home
+        </NavLink>
+        <NavLink className={css.linkStyled} to="/login">
+          Login
+        </NavLink>
+        <NavLink className={css.linkStyled} to="/register">
+          Register
+        </NavLink>
+        <NavLink className={css.linkStyled} to="/contacts">
+          Contacts
+        </NavLink>
       </header>
-      <main>{children}</main>
+      <main className={css.mainStyled}>{children}</main>
     </div>
   );
 };
