@@ -9,14 +9,14 @@ const HomePage = () => {
     >
       <h1
         style={{
-          marginTop: '16%',
+          marginTop: '35%',
           fontSize: 120,
           fontWeight: 900,
           textTransform: 'uppercase',
-          color: '#c0eb6a',
+          color: '#795238',
         }}
       >
-        Home Page
+        WELCOME
       </h1>
     </div>
   );

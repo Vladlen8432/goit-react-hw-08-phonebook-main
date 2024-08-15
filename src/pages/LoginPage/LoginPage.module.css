@@ -6,6 +6,8 @@
   padding: 0 30px 30px 30px;
   border-radius: 26px;
   width: 28%;
+  background-color: rgb(121, 82, 56);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .labelStyled {
@@ -15,7 +17,7 @@
 .labelName {
   font-size: 18px;
   text-transform: uppercase;
-  color: #485550;
+  color: #fff;
 }
 
 .inputStyled {
@@ -23,8 +25,13 @@
   border: none;
   border-radius: 13px;
   height: 40px;
+  outline: none;
 }
 
 .buttonStyled {
   margin-top: 20px;
+  max-width: 100px;
+  padding: 10px 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
