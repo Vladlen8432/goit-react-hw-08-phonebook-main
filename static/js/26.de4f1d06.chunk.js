@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoit_react_hw_08_phonebook_main=self.webpackChunkgoit_react_hw_08_phonebook_main||[]).push([[26],{26:function(e,t,n){n.r(t);var o=n(329);t.default=function(){return(0,o.jsx)("div",{style:{height:"100vh",display:"flex",justifyContent:"center",alignItems:"center",fontSize:40,color:"#010101"},children:"Contacts Page"})}}}]);
+//# sourceMappingURL=26.de4f1d06.chunk.js.map
